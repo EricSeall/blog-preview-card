@@ -1,0 +1,72 @@
+.preview-image {
+  width: 320px;
+  border-radius: 10px;
+  margin: 20px;
+  max-width: 80vw;
+}
+
+.profile-image {
+  width: 30px;
+  height: 30px;
+}
+
+.footer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  margin: 20px 0px;
+}
+
+.text-content {
+  padding: 0px 20px;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: clamp(0.5rem,2.5vw,0.75rem);
+
+}
+
+h1 {
+  font-weight: 800;
+  font-size: clamp(1rem,2.5vw,1.25rem);
+
+  transition: color .1s;
+}
+
+h1:hover {
+  color:  hsl(47, 88%, 63%);
+}
+
+.description {
+  color: hsl(0, 0%, 42%);
+  font-weight: 500;
+  font-size: clamp(0.8rem,2.5vw,1rem);
+}
+
+.author {
+  font-weight: 800;
+  font-size: clamp(0.6rem,2.5vw,0.875rem);
+  height: fit-content;
+  margin: 0;
+}
+
+.card {
+  background-color: white;
+  width: 360px;
+  border-radius: 20px;
+  border: 2px solid black;
+
+  box-shadow: 8px 8px black;
+  max-width: 90vw;
+}
+
+.tag {
+  background-color: hsl(47, 88%, 63%);
+  width: fit-content;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: 800;
+  font-size: clamp(0.5rem,2.5vw,0.75rem);
+}
